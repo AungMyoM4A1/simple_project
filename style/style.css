@@ -5,6 +5,7 @@ body {
 .main {
     height: 100vh;
     background-color: #073b4c;
+    margin-bottom: 10px;
 }
 .main_img{
     float: left;
@@ -37,7 +38,7 @@ body {
     width: 35px;
     border-radius: 50px;
 }
-.main_img_padding {
+.main_icon_padding {
     margin-left: 10px;
 }
 .resume_btn {
@@ -55,7 +56,53 @@ body {
 .resume_btn a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-size: smaller;
     display: block;
     padding-left: 10px;
+}
+/* ________________________________________________________ */
+
+.resume_grup {
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.resume_box {
+    display: inline-block;
+    width: 300px;
+    height: 50vh;
+    border: 1px solid #073b4c;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.resume_box:hover {
+    border-color: #4dd0e1;
+    box-shadow: 8px 8px 8px gainsboro;
+}
+.resume_box p {
+    color: gray;
+    font-size: small;
+}
+.resume_box a {
+    font-size: small;
+    color: #e91e63;
+}
+
+.read_more {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4dd0e1;
+    text-align: center;
+    line-height: 40px;
+}
+.read_more:hover {
+    background-color: #e91e63;
+}
+.read_more a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: small;
 }
