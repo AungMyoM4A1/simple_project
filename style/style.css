@@ -8,11 +8,12 @@ body {
 }
 .main_img{
     float: left;
-    margin: 30px 40px 0px 10px;
+    margin-top: 5%;
 }
 
 .main_text{
-    padding-top: 30px;
+    display: inline-block;
+    margin: 5% 0 0 5%;
     color: #ffee58;
 }
 .main_text h2 span {
@@ -40,6 +41,7 @@ body {
     margin-left: 10px;
 }
 .resume_btn {
+    margin-left: 5%;
     width: 200px;
     height: 40px;
     line-height: 40px;
